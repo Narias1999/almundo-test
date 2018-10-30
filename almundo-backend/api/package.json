@@ -1,0 +1,26 @@
+{
+  "name": "almundo-api",
+  "version": "1.0.0",
+  "description": "Api module for the recruting test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon server.js",
+    "satrt": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "api"
+  ],
+  "author": "Nicolás Arias",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "db": "file:../db",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}

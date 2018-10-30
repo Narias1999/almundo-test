@@ -1,0 +1,17 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "The db module for the almundo's exercise api",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node populations/hotel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolás Arias",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.3.7"
+  }
+}

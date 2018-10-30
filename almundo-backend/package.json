@@ -1,0 +1,19 @@
+{
+  "name": "almundo-backend",
+  "version": "1.0.0",
+  "description": "This is the first exercise of the almundo's recruting test",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard  --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "api"
+  ],
+  "author": "Nicolás Arias",
+  "license": "MIT",
+  "dependencies": {
+    "standard": "^12.0.1"
+  }
+}
