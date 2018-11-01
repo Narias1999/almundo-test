@@ -4,9 +4,9 @@ Estoy utlizando el Stack NodeJS - express - mongoDB + mongoose, la base de datos
 
 ## Ejecutar el proyecto
 
-- Correr **npm run pre-install** (Para instalar las dependencias de los modulos db y api).
-- La base de datos ya tiene registros, pero si quieres añadir más o repoblarla debes ejecutar el comando **npm run populate-db**.
-- Ejecuta el proyecto con **npm start**.
+- Correr `npm run pre-install` (Para instalar las dependencias de los modulos db y api).
+- Ejecuta `npm run populate-db` para poblar o vaciar la base de datos de hoteles.
+- Ejecuta el proyecto con `npm start`.
 
 ## Endpoints
 
