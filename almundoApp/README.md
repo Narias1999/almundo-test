@@ -15,4 +15,5 @@ async function httpClient (method, resource) {
     
   ...
 ```
-- Finalmente ejecutar el comando `react-native run-android`.
+- Ejecutar `react-native install`.
+- Ejecutar `react-native run-android`.
