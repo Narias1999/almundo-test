@@ -4,16 +4,14 @@
   "description": "This is the first exercise of the almundo's recruting test",
   "main": "index.js",
   "scripts": {
-    "lint": "standard  --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pre-install": "cd db && npm i && cd ./../api && npm i",
+    "populate-db": "cd db && npm run populate",
+    "start": "cd api && npm start"
   },
   "keywords": [
     "nodejs",
     "api"
   ],
   "author": "Nicolás Arias",
-  "license": "MIT",
-  "dependencies": {
-    "standard": "^12.0.1"
-  }
+  "license": "MIT"
 }

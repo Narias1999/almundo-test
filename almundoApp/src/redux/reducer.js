@@ -1,5 +1,5 @@
-function rootReducer(state = {}, action) {
-  const {type, payload} = action
+function rootReducer (state = {}, action) {
+  const { type, payload } = action
   switch (type) {
     case 'SET_HOTELS':
       return {
@@ -14,5 +14,5 @@ function rootReducer(state = {}, action) {
     default: return state
   }
 }
-  
+
 export default rootReducer

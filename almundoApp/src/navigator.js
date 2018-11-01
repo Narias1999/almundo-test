@@ -5,15 +5,21 @@ import Splash from './screens/Splash'
 import HotelDetail from './screens/HotelDetail'
 
 const RouteConfigs = {
-    Splash: {
-        screen: Splash
-    },
-    Timeline: {
-        screen: Timeline
-    },
-    HotelDetail: {
-        screen: HotelDetail
-    },
+  Splash: {
+    screen: Splash,
+    navigationOptions: {
+      header: null
+    }
+  },
+  Timeline: {
+    screen: Timeline,
+    navigationOptions: {
+      title: 'Lista de hoteles'
+    }
+  },
+  HotelDetail: {
+    screen: HotelDetail
+  }
 }
 
 const StackNavigatorConfig = {

@@ -8,9 +8,7 @@ const hotelSchema = new Schema({
   images: [String],
   price: Number,
   description: String,
-  country: String,
-  lat: Number,
-  long: Number
+  country: String
 })
 
 module.exports = db => db.model('hotels', hotelSchema)
